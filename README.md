@@ -36,9 +36,9 @@
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|group name|integer|null: false, foreign_key: true|
+|name|integer|null: false|
 
 ### Association
 - has_many :groups_users
 - has_many :users, through:groups_users
-- has_many :massages
+- has_many :messages
