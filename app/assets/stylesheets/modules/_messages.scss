@@ -38,18 +38,21 @@
     height: calc(100vh - 100px);
     padding: 20px 20px 0;
     overflow: auto;
-    &__group-name{
-      font-size: 15px;
-      color: #ffffff;
-      font-weight: bold;
+    &__group{
+      text-decoration: none;
+      padding-bottom:20px;
+      &__group-name{
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      &__latest-message{
+            font-size: 11px;
+            color: #ffffff;
+            font-weight: bold;
+            line-height: 5px;     
+      }
     }
-    &__latest-message{
-          font-size: 11px;
-          color: #ffffff;
-          font-weight: bold;
-          line-height: 5px; 
-         
-    } 
    }
 }
 
