@@ -38,18 +38,20 @@
     height: calc(100vh - 100px);
     padding: 20px 20px 0;
     overflow: auto;
-    &__group-name{
-      font-size: 15px;
+    color: #ffffff;
+    &__group {
+    &__group-tag {
       color: #ffffff;
-      font-weight: bold;
+      text-decoration: none;
+      &__group-name {
+        font-size: 15px;
+      }
+      &__latest-message{
+        font-size: 11px;
+        line-height: 5px;     
+      } 
     }
-    &__latest-message{
-          font-size: 11px;
-          color: #ffffff;
-          font-weight: bold;
-          line-height: 5px; 
-         
-    } 
+    }
    }
 }
 
@@ -88,21 +90,22 @@
       }
     }
   }
-
-  .messagess{
+ 
+  .messages{
     background-color: #fafafa;
     height: calc(100vh - 190px);
+    padding: 46px 40px;
+    overflow: scroll;
     .upper-message{
-      padding-top: 35px;
-      padding-left: 40px;
       display: flex;
-      .user-name{
+      &__user-name{
         font-size: 16px;
-        color: #333333;
+        font-weight: bold;
+        color: #434a54;
         line-height: 46px; 
         margin-right: 10px;
       }
-      .date{
+      &__date{
         font-size: 12px;
         color: #999999;
         line-height: 46px; 
@@ -111,6 +114,7 @@
     .lower-message{
       font-size: 14px;
       color: #434A54;
+      margin-bottom: 10px;
     }
   }
 
