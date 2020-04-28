@@ -40,10 +40,12 @@
     overflow: auto;
     color: #ffffff;
     &__group {
+      margin-bottom: 40px;
     &__group-tag {
       color: #ffffff;
       text-decoration: none;
       &__group-name {
+        margin-bottom: 5px;
         font-size: 15px;
       }
       &__latest-message{
