@@ -19,14 +19,14 @@
       display: flex;
       justify-content: space-between;
       color: #ffffff;
-      margin-right: 5px;
       &__name {
         font-size: 16px;
+        font-weight: bold;
         color: #ffffff;
       }
       &__icons { 
-        width:60px;
         a{
+        text-decoration: none;
         color: #ffffff;
         }
       }        
